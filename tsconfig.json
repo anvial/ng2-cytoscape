@@ -9,7 +9,12 @@
     "removeComments": false,
     "noImplicitAny": false,
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "paths": {
+      "@angular/*": [
+        "../node_modules/@angular/*"
+      ]
+    }
   },
   "exclude": [
     "node_modules",
